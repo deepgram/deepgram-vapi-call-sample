@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Deepgram Voice Bot</title>
+    <link rel="stylesheet" type="text/css" href="style.css?v=0.1">
+</head>
+<body>
+    
+  <div class="row">
+    <div class="column">
+        <div class="form">
+          <h2>Deepgram ASR + TTS Voice Bot Demo Built with Vapi.ai</h2>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" value="" placeholder="Your name..">
+
+          <label for="company">Company</label>
+          <input type="text" id="company" name="company" placeholder="Your Company">
+          
+          <label for="voice">Voice</label>
+          <select id="voice" name="voice">
+            <option value="asteria" selected>Asteria</option>
+            <option value="stella">Stella</option>
+            <option value="andromeda">Andromeda</option>
+            <option value="atlas">Atlas</option>
+            <option value="luna">Aurora</option>
+            <option value="artemis">Artemis</option>
+            <option value="athena">Athena</option>
+            <option value="hera">Hera</option>
+            <option value="helios">Helios</option>
+            <option value="angus">Angus</option>
+            <option value="leo">Leo</option>
+            <option value="varun">Varun</option>
+            <option value="perseus">Perseus</option>
+            <option value="angus">Angus</option>
+          </select>
+          
+          <label for="lnumber">Phone Number</label>
+          <input type="text" id="number" name="number" value="" placeholder="+14151234567">
+
+          <input id="submit" type="submit" value="Call Me!" onclick="makeCall()">
+        </div>
+    </div>
+  </div>
+  <script src="script.js?v=0.1"></script>
+</body>
+</html>
