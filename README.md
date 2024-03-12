@@ -1,7 +1,8 @@
 # deepgram-vapi-call-sample
 
-## Accounts
-- [Vapi](https://vapi.ai)
+## Setting up your Vapi account
+- [Sign Up](https://vapi.ai)
+- Create an Account to get an API Key and create a new Voice Bot
 
 ## Set Env Var
 
