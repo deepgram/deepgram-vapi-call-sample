@@ -1,10 +1,7 @@
 # deepgram-vapi-call-sample
 
-## Accounts Required
-
-- [Deepgram](https://deepgram.com)
+## Accounts
 - [Vapi](https://vapi.ai)
-
 
 ## Set Env Var
 
